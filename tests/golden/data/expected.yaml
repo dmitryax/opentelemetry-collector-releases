@@ -13,6 +13,15 @@ resourceMetrics:
         - key: service.version
           value:
             stringValue: 0.139.0
+        - key: service_instance_id
+          value:
+            stringValue: 5230d18c-f0dc-4ff3-9284-f273297bb543
+        - key: service_name
+          value:
+            stringValue: otelcol-contrib
+        - key: service_version
+          value:
+            stringValue: 0.148.0
         - key: url.scheme
           value:
             stringValue: http
