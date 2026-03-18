@@ -22,10 +22,13 @@ services:
       --timeout 2m
       --ignore-resource-attribute-value service.instance.id
       --ignore-metric-attribute-value service.instance.id
+      --ignore-metric-attribute-value service_instance_id
       --ignore-resource-attribute-value service.version
       --ignore-resource-attribute-value service.name
       --ignore-metric-attribute-value service.version
+      --ignore-metric-attribute-value service_version
       --ignore-metric-attribute-value service.name
+      --ignore-metric-attribute-value service_name
       --ignore-resource-metrics-order
       --ignore-scope-metrics-order
       --ignore-metrics-order
